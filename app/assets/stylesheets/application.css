@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+ .custom-link {
+  text-decoration: none;
+  color: white;
+ }
+
+ .container{
+  margin-left: 5px;
+ }

@@ -1,0 +1,23 @@
+<div class=container>
+  <h1>Stupid Choaching</h1>
+  <div class="card-you" style="width: 18rem;">
+    <div class="card-you-body">
+      <h4 class="card-text"><%= @message %></h4>
+      <h2 class="card-title"> - You </h2>
+    </div>
+  </div>
+
+  <div class="card-coach" style="width: 18rem;">
+    <img src="<%= @coach_img %>" class="card-img-top" alt="...">
+    <div class="card-coach-body">
+      <h4 class="card-text"><%= @answer %></h4>
+      <h2 class="card-title"> - Your Coach</h2>
+    </div>
+  </div>
+
+  <div class="btn btn-primary" style="width: 18rem;">
+
+  <%= link_to "Ask Another Question", ask_path, class: "custom-link"%>
+
+  </div>
+</div>
